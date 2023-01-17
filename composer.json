@@ -11,11 +11,12 @@
     ],
     "require": {
         "composer/installers": "^1.9",
+        "cweagans/composer-patches": "^1.7",
         "drupal/core-composer-scaffold": "^9.2",
         "drupal/core-recommended": "^9.2",
-        "sdubois/amezmo-drupal-integrations": "dev-main",
-        "cweagans/composer-patches": "^1.7",
-        "drush/drush": "^10"
+        "drupal/webform": "^6.1",
+        "drush/drush": "^10",
+        "sdubois/amezmo-drupal-integrations": "dev-main"
     },
     "require-dev": {
         "drupal/core-dev": "^9.2"
