@@ -202,12 +202,12 @@ parameters:
   cors.config:
     enabled: true
     # Specify allowed headers, like 'x-allowed-header'.
-    allowedHeaders: ["http://127.0.0.1:5500"]
+    allowedHeaders: ["*"]
     # Specify allowed request methods, specify ['*'] to allow all possible ones.
     allowedMethods: ["*"]
     # Configure requests allowed from specific origins. Do not include trailing
     # slashes with URLs.
-    allowedOrigins: ["*"]
+    allowedOrigins: ["http://127.0.0.1:5500"]
     # Sets the Access-Control-Expose-Headers header.
     exposedHeaders: false
     # Sets the Access-Control-Max-Age header.
