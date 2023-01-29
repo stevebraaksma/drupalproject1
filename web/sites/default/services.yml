@@ -202,7 +202,7 @@ parameters:
   cors.config:
     enabled: true
     # Specify allowed headers, like 'x-allowed-header'.
-    allowedHeaders: ["*"]
+    allowedHeaders: ["http://127.0.0.1:5500"]
     # Specify allowed request methods, specify ['*'] to allow all possible ones.
     allowedMethods: ["*"]
     # Configure requests allowed from specific origins. Do not include trailing
