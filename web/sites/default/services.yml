@@ -207,7 +207,13 @@ parameters:
     allowedMethods: ["*"]
     # Configure requests allowed from specific origins. Do not include trailing
     # slashes with URLs.
-    allowedOrigins: ["http://127.0.0.1:5500"]
+    allowedOrigins:
+      [
+        "https://presbycambria.com/",
+        "https://v2-presbycambria.netlify.app/",
+        "https://steve-braaksma-sample-church-site.netlify.app/",
+        "http://127.0.0.1:5500",
+      ]
     # Sets the Access-Control-Expose-Headers header.
     exposedHeaders: false
     # Sets the Access-Control-Max-Age header.
