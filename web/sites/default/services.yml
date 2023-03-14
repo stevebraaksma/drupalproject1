@@ -209,9 +209,9 @@ parameters:
     # slashes with URLs.
     allowedOrigins:
       [
-        "https://presbycambria.com/",
-        "https://v2-presbycambria.netlify.app/",
-        "https://steve-braaksma-sample-church-site.netlify.app/",
+        "https://v2-presbycambria.netlify.app",
+        "https://presbycambria.com",
+        "https://steve-braaksma-sample-church-site.netlify.app",
         "http://127.0.0.1:5500",
       ]
     # Sets the Access-Control-Expose-Headers header.
